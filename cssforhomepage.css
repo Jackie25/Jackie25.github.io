@@ -1,0 +1,61 @@
+header {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+body {
+  background-image: url("./moscow-kremlin-1449450526QU6.JPG");
+  background-size: cover;
+}
+h1 {
+  font-size: 70px;
+  margin-top: 100px;
+  line-height: 40px;
+  color: rgba(204, 0, 0, 1);
+}
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  line-height: 40px;
+  color: yellow;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 40px;
+  color: rgba(218, 145, 0, 1);
+}
+ul {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 20px;
+}
+a {
+  color: rgba(218, 145, 0, 1);
+}
+a:hover,
+a:focus {
+  color: yellow;
+  text-decoration: underline;
+}
+@media (max-width: 500px) {
+    li {
+      display: block;
+      padding: 5px;
+    }
+    h1 {
+      font-size: 45px;
+      margin: 20px 0 30px 0;
+    }
+    h3 {
+      font-size: 20px;
+      margin: 20px 0 30px 0;
+    }
+    h2 {
+      font-size: 30px;
+      margin: 20px 0 30px 0;
+    }
+  }

@@ -1,0 +1,111 @@
+header {
+  text-align: center;
+  background-size: cover;
+  color: #002147;
+  font-family: 'Lobster', cursive;
+  background: url("./Image2.JPG");
+  height: 140px;
+}
+ul {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+li {
+  display: inline;
+  padding: 0px 40px 0px 40px;
+}
+a {
+  color: yellow;
+  font-size: 15px;
+}
+.services {
+  display: block;
+}
+h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 21px 0 0 0;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+  padding: 10px 0 10px 0;
+}
+h6 {
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 12px;
+}
+img {
+  margin: 0 0 0 500px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+.text{
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+body {
+  background-color: #002147;
+  background-size: 900px;
+  max-width: cover;
+  margin: auto;
+}
+p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.animation{
+  margin: center;
+  padding: 20px;
+}
+marquee {
+  background-color: rgba(204, 0, 0, 1);
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+.row {
+  color: white;
+  background-color: #002147;
+  margin: auto;
+  max-width: 550px;
+  font-family: 'Lobster', cursive;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+a {
+  color: yellow;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: rgba(218, 145, 0, 1);
+  text-decoration: underline;
+}
+@media (max-width: 900px) {
+  header {
+    height: 350px;
+    background-size: cover;
+  }
+      h1{
+        font-size:36px;
+      }
+      h2{
+        font-size: 26;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+      img {
+        margin: 0 0 0 100px;
+}
+.col-xs-6 {
+  font-size: 15px;
+}
+}

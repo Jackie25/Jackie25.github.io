@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- JQuery link -->
+    <script src="jquery-3.1.1.js"></script>
+    <script src="bootstrap.js"></script>
+  <!-- bootstrap & custom css links -->
+     <link href='bootstrap.css' rel='stylesheet'>
+     <link href='custom css.css' rel='stylesheet'>
+     <link rel="stylesheet" type="text/css" href="cssforwebsite.css">
+  <!-- This is the contact form -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Russian Language Company</title>
+  <!-- other links -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="/normalize.css" rel="stylesheet">
+    <script>
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"> </script>
+    <script type="text/javascript" src="/website.js"></script>
+</head>
+<body>
+  <header>
+    <h1> The Russian Language Company </h1>
+      <ul>
+        <li class="menu"><a href="./Russian Language Company.html">Home</a></li>
+        <li class="menu"><a href="./Translation.html">Translation</a></li>
+        <li class="menu"><a href="./Tuition.html">Tuition</a></li>
+        <li class="menu"><a href="./OtherServices.html">Other Services</a></li>
+        <li class="menu"><a href="./AboutUs.html">About Us</a></li>
+        <li class="menu"><a href="./contact form.html">Contact</a></li>
+      </ul>
+  </header>
+  <div>
+     <h3 class="contact">Please contact us if you have any enquiries <br><small>Drop us a line and we'll come back to you ASAP.</small>
+     </h3>
+  </div>
+
+  <form>
+
+<div class='col-sm-6'>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" class="form-control" id="exampleInputEmail1> </input>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1"></input>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Phone number</label>
+          <input type="text" class="form-control" id="exampleInputEmail1"></input>
+        </div>
+
+       <div class="form-group">
+            <label for="exampleInputPassword1">Your query</label>
+            <input type="text" class="form-control" id="exampleInputPassword1"></input>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Where did you hear about us?
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Company site</a></li>
+                <li><a href="#">Leaflet/flyer</a></li>
+                <li><a href="#">Family/friends</a></li>
+            </ul>
+        </div>
+    <br>
+          <p>Which service are you interested in?</p>
+              <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Translation
+                  </label>
+              </div>
+              <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Interpreting
+                    </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Tuition
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Other
+                </label>
+               </div>
+
+     <br>
+            <!-- Submit and clear the form button -->
+            <button type="submit" class="submit1">Submit</button>
+            <button type="reset" class="submit">Clear form</button>
+  </form>
+
+          <br></br>
+          <div id='social-buttons'>
+                <button class='btn-twitter'>Twitter</button>
+                <button class='btn-facebook'>Facebook</button>
+                <button class='btn-pinterest'>Pinterest</button>
+          </div>
+</div>
+
+  <a class="twitter-timeline" data-width="400" data-height="450" href="https://twitter.com/putinrf_eng?lang=en-gb">Tweets Liked by @PutinRF_Eng</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <iframe
+        width="400"
+        height="250"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKh2l1JuI--JGv1z-Lu5ijvKdw79JLuLM
+          &q=Arts+Tower,Sheffield+UK" allowfullscreen>
+      </iframe>
+
+     <script>
+          $("button.submit1").on("click", function() {
+          alert("Your form was sent")
+          })
+
+    </script>
+
+</body>
