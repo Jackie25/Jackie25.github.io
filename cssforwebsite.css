@@ -87,7 +87,7 @@ a:focus {
   color: rgba(218, 145, 0, 1);
   text-decoration: underline;
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   header {
     height: 350px;
     background-size: cover;
