@@ -11,7 +11,6 @@ header {
   color: #002147;
   font-family: 'Lobster', cursive;
   background: url("./Image2.JPG");
-  height: 140px;
 }
 ul {
   padding: 10px;
@@ -25,9 +24,7 @@ a {
   color: yellow;
   font-size: 15px;
 }
-.services {
-  display: block;
-}
+
 h1 {
   font-size: 50px;
   margin: 0;
@@ -93,9 +90,11 @@ a:focus {
   color: rgba(218, 145, 0, 1);
   text-decoration: underline;
 }
+.iframe {
+  margin: 0 auto;
+}
 @media (max-width: 900px) {
   header {
-    height: 350px;
     background-size: cover;
   }
       h1{
@@ -6845,14 +6844,13 @@ button.close {
 
 <!--cssforwebsite  -->
 
-  header {
-    text-align: center;
-    background-size: cover;
-    color: #002147;
-    font-family: 'Lobster', cursive;
-    background: url("./Image2.JPG");
-    height: 140px;
-  }
+header {
+  text-align: center;
+  background-size: cover;
+  color: #002147;
+  font-family: 'Lobster', cursive;
+  background: url("./Image2.JPG");
+}
   ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -6933,9 +6931,11 @@ button.close {
     color: rgba(218, 145, 0, 1);
     text-decoration: underline;
   }
+  .add-ons {
+    margin: 0 auto;
+  }
   @media (max-width: 900px) {
     header {
-      height: 350px;
       background-size: cover;
     }
         h1{

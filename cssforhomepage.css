@@ -3,8 +3,9 @@ header {
   font-family: 'Lobster', cursive;
 }
 body {
-  background-image: url("moscow-kremlin-1449450526QU6.jpg");
+  background-image: url("./moscow-kremlin-1449450526QU6.JPG");
   background-size: cover;
+  background-position: center;
 }
 h1 {
   font-size: 70px;

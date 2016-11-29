@@ -3,12 +3,11 @@ header {
   background-size: cover;
   color: #002147;
   font-family: 'Lobster', cursive;
-  background-image: url("Image2.jpg");
-  height: 140px;
+  background: url("./Image2.JPG");
 }
 ul {
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 li {
   display: inline;
@@ -18,9 +17,7 @@ a {
   color: yellow;
   font-size: 15px;
 }
-.services {
-  display: block;
-}
+
 h1 {
   font-size: 50px;
   margin: 0;
@@ -28,6 +25,7 @@ h1 {
 }
 h2 {
   font-size: 30px;
+  text-align: center;
 }
 h3 {
   font-size: 25px;
@@ -87,9 +85,15 @@ a:focus {
   color: rgba(218, 145, 0, 1);
   text-decoration: underline;
 }
+.add-ons {
+  margin: 0 0 0 390px;
+}
+.add-ons23 {
+  margin: 0 0 0 420px;
+}
+
 @media (max-width: 768px) {
   header {
-    height: 350px;
     background-size: cover;
   }
       h1{
@@ -97,6 +101,7 @@ a:focus {
       }
       h2{
         font-size: 26;
+        text-align: center;
       }
       li {
         display: block;
@@ -105,7 +110,20 @@ a:focus {
       img {
         margin: 0 0 0 100px;
 }
+.menu {
+  display: block;
+  padding: 5px;
+}
 .col-xs-6 {
   font-size: 15px;
+}
+.add-ons {
+  margin: 0 0 0 10px;
+  width: 300px;
+  font-size: 26px;
+}
+.add-ons23 {
+  margin: 0 0 0 20px;
+  width: 300px;
 }
 }
