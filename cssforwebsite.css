@@ -26,6 +26,8 @@ h1 {
 h2 {
   font-size: 30px;
   text-align: center;
+  color: white;
+  font-family: 'Lobster', cursive;
 }
 h3 {
   font-size: 25px;
@@ -84,6 +86,21 @@ a:hover,
 a:focus {
   color: rgba(218, 145, 0, 1);
   text-decoration: underline;
+}
+#social-buttons button {
+color: white;
+}
+.btn-twitter {
+background-color: #00acee;
+border-color: #009ad5;
+}
+.btn-facebook {
+background-color: #4868ac;
+border-color: #314776;
+}
+.btn-pinterest {
+background-color: #b62f26;
+border-color: #b62f26;
 }
 .add-ons {
   margin: 0 0 0 390px;
