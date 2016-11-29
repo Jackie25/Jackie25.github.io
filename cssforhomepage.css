@@ -43,7 +43,12 @@ a:focus {
   text-decoration: underline;
 }
 @media (max-width: 500px) {
-    li {
+  body {
+  background-image: url("moscow-kremlin-1449450526QU6.jpg");
+  background-size: cover;
+  background-position: center;
+  }  
+  li {
       display: block;
       padding: 5px;
     }
