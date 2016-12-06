@@ -113,6 +113,9 @@ border-color: #b62f26;
   header {
     background-size: cover;
   }
+  body {
+    background-color: green;
+  }
       h1{
         font-size:36px;
       }
@@ -125,7 +128,7 @@ border-color: #b62f26;
         padding: 5px;
       }
       img {
-        margin: 0 0 0 100px;
+        margin: 0 0 0 20px;
 }
 .menu {
   display: block;
